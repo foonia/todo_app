@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
-def test_view(request):
+def index(request):
     return render(request, 'todoweb/index.html')
